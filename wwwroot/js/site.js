@@ -5,4 +5,5 @@
 
 $(() => {
     $('.slider').slider();
+    $('select').formSelect();
 })
