@@ -2,64 +2,235 @@
 ViewData["Title"] = "Home Page";
 }
 
-<div class="col m3 s12">
-    <h6>
-        Catogary
-    </h6>
-    <hr>
-    <ul class="collection" style="border: 0px;">
-        <li class="collection-item">Books</li>
-        <li class="collection-item">Cloths</li>
-        <li class="collection-item">Home Items</li>
-        <li class="collection-item">Stationary</li>
-    </ul>
+<div class="row">
+    <div class="col m3 s12">
+        <h6>
+            Catogary
+        </h6>
+        <hr>
+        <ul class="collection" style="border: 0px;">
+            <li class="collection-item">Books</li>
+            <li class="collection-item">Cloths</li>
+            <li class="collection-item">Home Items</li>
+            <li class="collection-item">Stationary</li>
+        </ul>
 
-    <hr>
-    <h6 style="font-weight: bold;" class=" pink-text">
-        Could not find what you want ?
-    </h6>
+        <hr>
+        <h6 style="font-weight: bold;" class=" pink-text">
+            Could not find what you want ?
+        </h6>
 
-    <div class="input-field col s12 ">
-        <select class="icons">
-            <option value="" disabled selected>Choose your option</option>
-            <option value="" data-icon="https://lorempixel.com/580/250/nature/2">example 1</option>
-            <option value="" data-icon="images/office.jpg">example 2</option>
-            <option value="" data-icon="images/yuna.jpg">example 3</option>
-        </select>
-        <button class="btn #b388ff deep-purple accent-1 btn-small  waves-effect waves-light">search</button>
+        <div class="input-field col s12 ">
+            <select class="icons">
+                <option value="" disabled selected>Choose your option</option>
+                <option value="" data-icon="https://lorempixel.com/580/250/nature/2">example 1</option>
+                <option value="" data-icon="images/office.jpg">example 2</option>
+                <option value="" data-icon="images/yuna.jpg">example 3</option>
+            </select>
+            <button class="btn #b388ff deep-purple accent-1 btn-small  waves-effect waves-light">search</button>
+        </div>
+    </div>
+    <div class="col m7 s12 offset-m1 ">
+        <div class="slider">
+            <ul class="slides">
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
+                    <div class="caption left-align">
+                        <h3>Left Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
+                    <div class="caption right-align">
+                        <h3>Right Aligned Caption</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+                <li>
+                    <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
+                    <div class="caption center-align">
+                        <h3>This is our big Tagline!</h3>
+                        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
     </div>
 </div>
-<div class="col m7 s12 offset-m1 ">
-    <div class="slider">
-        <ul class="slides">
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+<div class="row">
+    <h5 class="center-align">
+        <em>
+            Top viwed Items
+
+        </em>
+    </h5>
+
+    <div class="col m3 s12">
+
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="~/images/0860103680290NEW_00_349.webp" class="card-image">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
                 </div>
-            </li>
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/2"> <!-- random image -->
-                <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
                 </div>
-            </li>
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/3"> <!-- random image -->
-                <div class="caption right-align">
-                    <h3>Right Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+            </div>
+        </div>
+    </div>
+    <div class="col m3 s12">
+
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="~/images/0860103680290NEW_00_349.webp" class="card-image">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
                 </div>
-            </li>
-            <li>
-                <img src="https://lorempixel.com/580/250/nature/4"> <!-- random image -->
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
                 </div>
-            </li>
-        </ul>
+            </div>
+        </div>
+    </div>
+    <div class="col m3 s12">
+
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="~/images/0860103680290NEW_00_349.webp" class="card-image">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col m3 s12">
+
+        <div class="card horizontal">
+            <div class="card-image">
+                <img src="~/images/0860103680290NEW_00_349.webp" class="card-image">
+            </div>
+            <div class="card-stacked">
+                <div class="card-content">
+                    <p>I am a very simple card. I am good at containing small bits of information.</p>
+                </div>
+                <div class="card-action">
+                    <a href="#">This is a link</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div style="background-color: rgb(45, 52, 90);padding: 42px;" class="center">
+
+    <div class="row">
+        <div class="col  s12">
+            <p class="white-text center-align" style="font-size: 2em;font-family: sans-serif">Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Animi officiis
+                quae labore, numquam tempora tenetur
+                dolorem, nisi assumenda, sequi nam ipsa beatae voluptas autem
+                eaque obcaecati sint. Animi, amet praesentium.</p>
+        </div>
+    </div>
+
+</div>
+<div class="container">
+    <div class="row" style="margin-top: 12px;">
+        <div class="col m4 s12">
+            <img src="~/images/images (1).jpeg" alt="" srcset="" class="responsive-img">
+            <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+
+                quia molestiae provident explicabo porro
+                magni culpa quam, dolor veniam dolore pariatur!
+                Ut aliquid harum voluptatem unde adipisci quam deserunt
+                laudantium.</p>
+        </div>
+        <div class="col m4 s12">
+            <img src="~/images/images (1).jpeg" alt="" srcset="" class="responsive-img">
+            <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+
+                quia molestiae provident explicabo porro
+                magni culpa quam, dolor veniam dolore pariatur!
+                Ut aliquid harum voluptatem unde adipisci quam deserunt
+                laudantium.</p>
+        </div>
+        <div class="col m4 s12">
+            <img src="~/images/images (1).jpeg" alt="" srcset="" class="responsive-img">
+            <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+
+                quia molestiae provident explicabo porro
+                magni culpa quam, dolor veniam dolore pariatur!
+                Ut aliquid harum voluptatem unde adipisci quam deserunt
+                laudantium.</p>
+        </div>
+        <div class="col m4 s12">
+            <img src="~/images/images (1).jpeg" alt="" srcset="" class="responsive-img">
+            <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+
+                quia molestiae provident explicabo porro
+                magni culpa quam, dolor veniam dolore pariatur!
+                Ut aliquid harum voluptatem unde adipisci quam deserunt
+                laudantium.</p>
+        </div>
+        <div class="col m4 s12">
+            <img src="~/images/images (1).jpeg" alt="" srcset="" class="responsive-img">
+            <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+
+                quia molestiae provident explicabo porro
+                magni culpa quam, dolor veniam dolore pariatur!
+                Ut aliquid harum voluptatem unde adipisci quam deserunt
+                laudantium.</p>
+        </div>
+        <div class="col m4 s12">
+            <img src="~/images/images (1).jpeg" alt="" srcset="" class="responsive-img">
+            <p style="text-align: justify">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
+
+                quia molestiae provident explicabo porro
+                magni culpa quam, dolor veniam dolore pariatur!
+                Ut aliquid harum voluptatem unde adipisci quam deserunt
+                laudantium.</p>
+        </div>
+    </div>
+</div>
+
+<div class="" style="background-color: rgb(100, 53, 100);">
+    <div class="row">
+        <div class="col m6 s12">
+            <h5 class="white-text center-align">
+                Want to <span style="font-weight: bold;">Donate </span>
+            </h5>
+          
+        </div>
+        <div class="col m6 s12">
+                <h5 class="white-text center-align">
+                   Give Us A feedback
+                </h5>
+              
+            </div>
     </div>
 </div>
